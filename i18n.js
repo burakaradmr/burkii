@@ -45,6 +45,10 @@ function updateContent(lang) {
 
   // HTML lang attribute'unu güncelle
   document.documentElement.lang = lang;
+
+  // !!! YENİ EKLENEN KOD !!!
+  // Çeviri bitti, atlamayı (FOUC) önlemek için sayfayı görünür yap
+  document.body.style.visibility = 'visible';
 }
 
 // Dil değiştir

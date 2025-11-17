@@ -53,6 +53,12 @@ const translations = {
     tab_mobile: "Mobil",
     tab_design: "Tasarım",
 
+    // Yeni eklendi (Proje 2 - Portfolio)
+    project_2_title: "Portfolio Websitesi",
+    project_tag_html: "HTML",
+    project_tag_css: "CSS",
+    project_tag_js: "JavaScript",
+
     // About Page (about.html)
     skill_section_title: "Uzmanlık Alanlarım",
     skill_section_subtitle: "Becerilerim",
@@ -103,6 +109,11 @@ const translations = {
     blog_title: "Kişisel Markalaşmayı Güçlü Portfolyolarla Yükseltme",
     blog_comments: "Yorum",
     blog_read_more: "Devamını Oku",
+
+    // Yeni eklendi (Blog Başlıkları)
+    blog_post_1_title: "Çok Yakında: Teknoloji ve Yazılım Geliştirme Üzerine",
+    blog_post_2_title: "Öğrenme Yolculuğum: Flutter ile Mobil Uygulama Geliştirme",
+    blog_post_3_title: "Web Geliştirmede Modern Araçlar ve Teknikler",
 
     // Footer
     footer_pages_title: "Diğer Sayfalar",
@@ -171,6 +182,12 @@ const translations = {
     tab_mobile: "Mobile",
     tab_design: "Design",
 
+    // Yeni eklendi (Proje 2 - Portfolio)
+    project_2_title: "Portfolio Website",
+    project_tag_html: "HTML",
+    project_tag_css: "CSS",
+    project_tag_js: "JavaScript",
+
     // About Page (about.html)
     skill_section_title: "My Expert Areas",
     skill_section_subtitle: "My Skills",
@@ -221,6 +238,11 @@ const translations = {
     blog_title: "Elevating Personal Branding through Powerful Portfolios",
     blog_comments: "Comments",
     blog_read_more: "Read More",
+
+    // Yeni eklendi (Blog Başlıkları)
+    blog_post_1_title: "Coming Soon: On Technology and Software Development",
+    blog_post_2_title: "My Learning Journey: Mobile App Development with Flutter",
+    blog_post_3_title: "Modern Tools and Techniques in Web Development",
 
     // Footer
     footer_pages_title: "Other Pages",

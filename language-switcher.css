@@ -1,3 +1,9 @@
+/* FOUC (Atlama) Önleyici */
+/* Sayfayı varsayılan olarak gizle */
+body {
+  visibility: hidden;
+}
+
 /* language-switcher.css - Dil değiştirme butonları için stil */
 
 .language-switcher {
