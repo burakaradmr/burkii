@@ -1,0 +1,66 @@
+/* language-switcher.css - Dil değiştirme butonları için stil */
+
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-btn {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.lang-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Header'daki dil butonları için */
+.header-language-switcher {
+  display: flex;
+  gap: 8px;
+  margin-left: 15px;
+}
+
+.header-language-switcher .lang-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+/* Footer'daki dil butonları için */
+.footer-language-switcher {
+  margin-top: 20px;
+}
+
+.footer-language-switcher .language-switcher {
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-language-switcher {
+    margin-left: 10px;
+  }
+  
+  .lang-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}

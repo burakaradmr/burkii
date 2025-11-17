@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Burak Karademir'in geliştirdiği web ve mobil projeler. Flutter, JavaScript ve modern teknolojilerle yapılmış uygulamalar.">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
+    <title>Projelerim - Burak Karademir</title>
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Dil değiştirme CSS -->
+    <link rel="stylesheet" href="language-switcher.css">
+</head>
+
+<body>
+
+    <!-- tpm-header-area start -->
+    <header class="tmp-header-area-start header-one header--sticky header--transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-content">
+                        <nav class="tmp-mainmenu-nav d-none d-xl-block">
+                            <ul class="tmp-mainmenu onepagenav">
+                                <li>
+                                    <a href="index.html" data-i18n="nav_home">Anasayfa</a>
+                                </li>
+                                <li>
+                                    <a href="about.html" data-i18n="nav_about">Hakkımda</a>
+                                </li>
+                                <li>
+                                    <a href="proje.html" data-i18n="nav_projects">Projeler</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" data-i18n="nav_blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html" data-i18n="nav_contact">İletişim</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="tmp-header-right">
+                            <div class="social-share-wrapper d-none d-md-block">
+                                <div class="social-link">
+                                    <a href="https://www.instagram.com/burakaradmr/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/burak-karademir-74517a265/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://x.com/burakaradmr"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                            <!-- Dil Değiştirme Butonları -->
+                            <div class="header-language-switcher d-none d-md-block">
+                                <div class="language-switcher">
+                                    <a href="#" class="lang-btn" data-lang="tr">TR</a>
+                                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                                </div>
+                            </div>
+                            <div class="actions-area">
+                                <div class="tmp-side-collups-area d-none d-xl-block">
+                                    <button class="tmp-menu-bars tmp_button_active"><i class="fa-regular fa-bars-staggered"></i></button>
+                                </div>
+                                <div class="tmp-side-collups-area d-block d-xl-none">
+                                    <button class="tmp-menu-bars humberger_menu_active"><i class="fa-regular fa-bars-staggered"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-us-area" id="about">
+        <!-- tmp banner area start -->
+        <div class="rpp-banner-two-area" id="home">
+            <div class="container">
+                <div class="banner-two-main-wrapper">
+                    <div class="row align-items-center">
+                        <!-- tmp Latest Portfolio Start -->
+                        <section class="latest-portfolio-area custom-column-grid tmp-section-gap" id="portfolio">
+                            <div class="container">
+                                <div class="section-head mb--60">
+                                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                        <span class="subtitle theme-gradient" data-i18n="projects_subtitle">Son Projeler</span>
+                                    </div>
+                                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2" data-i18n="projects_title">Fikirleri Olağanüstü Projelere Dönüştürme</h2>
+                                    <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3" data-i18n="projects_description">Öğrenme sürecimde geliştirdiğim projeler, problem çözme becerilerimi ve teknik yeteneklerimi gösteriyor.</p>
+                                </div>
+
+                                <div class="latest-portfolio-tabs-area">
+                                    <nav>
+                                        <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <li>
+                                                <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="true" data-i18n="tab_all">Tümü</button>
+                                            </li>
+                                            <li>
+                                                <button class="nav-link" id="nav-mobile-tab" data-bs-toggle="tab" data-bs-target="#nav-mobile" type="button" role="tab" aria-controls="nav-mobile" aria-selected="false" data-i18n="tab_mobile">Mobil</button>
+                                            </li>
+                                            <li>
+                                                <button class="nav-link" id="nav-web-tab" data-bs-toggle="tab" data-bs-target="#nav-web" type="button" role="tab" aria-controls="nav-web" aria-selected="false" data-i18n="tab_web">Web</button>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="tab-content bg-blur-style-one" id="nav-tabContent">
+                                        <!-- All Projects Tab -->
+                                        <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">
+                                            <div class="row animation-action-3">
+                                                <!-- Tarım Uygulaması Projesi -->
+                                                <div class="col-lg-6 col-md-6 paralax-image">
+                                                    <div class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger single-animation active tmponhover tmp-fade-in animation-order-1">
+                                                        <div class="portfoli-card-img">
+                                                            <div class="img-box v2">
+                                                                <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="javascript:void(0);">
+                                                                    <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-1.jpg" alt="Tarım Uygulaması">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-card-content-wrap">
+                                                            <div class="content-left">
+                                                                <h3 class="portfolio-card-title"><a href="javascript:void(0);" data-i18n="project_1_title">Tarım Yönetim Uygulaması</a></h3>
+                                                                <div class="tag-items">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item" data-i18n="project_tag_flutter">Flutter</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item" data-i18n="project_tag_dart">Dart</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item" data-i18n="project_tag_firebase">Firebase</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon btn-md" href="javascript:void(0);">
+                                                                <div class="icon-reverse-wrapper">
+                                                                    <span class="btn-text" data-i18n="project_view_details">Detayları Gör</span>
+                                                                    <div class="btn-hack"></div>
+                                                                    <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                                    <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tmp-light light-center"></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Portfolio Website Projesi -->
+                                                <div class="col-lg-6 col-md-6 paralax-image">
+                                                    <div class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger single-animation tmponhover tmp-fade-in animation-order-2">
+                                                        <div class="portfoli-card-img">
+                                                            <div class="img-box v2">
+                                                                <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="javascript:void(0);">
+                                                                    <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-2.jpg" alt="Portfolio Website">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-card-content-wrap">
+                                                            <div class="content-left">
+                                                                <h3 class="portfolio-card-title"><a href="javascript:void(0);">Portfolio Website</a></h3>
+                                                                <div class="tag-items">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item">HTML</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item">CSS</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" class="tag-item">JavaScript</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon btn-md" href="javascript:void(0);">
+                                                                <div class="icon-reverse-wrapper">
+                                                                    <span class="btn-text" data-i18n="project_view_details">Detayları Gör</span>
+                                                                    <div class="btn-hack"></div>
+                                                                    <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                                    <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tmp-light light-center"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Mobile Projects Tab -->
+                                        <div class="tab-pane fade" id="nav-mobile" role="tabpanel" aria-labelledby="nav-mobile-tab" tabindex="0">
+                                            <div class="row animation-action-1">
+                                                <div class="col-lg-6 col-md-6 paralax-image">
+                                                    <div class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger single-animation active tmponhover tmp-fade-in animation-order-1">
+                                                        <div class="portfoli-card-img">
+                                                            <div class="img-box v2">
+                                                                <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="javascript:void(0);">
+                                                                    <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-1.jpg" alt="Tarım Uygulaması">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-card-content-wrap">
+                                                            <div class="content-left">
+                                                                <h3 class="portfolio-card-title"><a href="javascript:void(0);" data-i18n="project_1_title">Tarım Yönetim Uygulaması</a></h3>
+                                                                <div class="tag-items">
+                                                                    <ul>
+                                                                        <li><a href="#" class="tag-item" data-i18n="project_tag_flutter">Flutter</a></li>
+                                                                        <li><a href="#" class="tag-item" data-i18n="project_tag_dart">Dart</a></li>
+                                                                        <li><a href="#" class="tag-item" data-i18n="project_tag_firebase">Firebase</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon btn-md" href="javascript:void(0);">
+                                                                <div class="icon-reverse-wrapper">
+                                                                    <span class="btn-text" data-i18n="project_view_details">Detayları Gör</span>
+                                                                    <div class="btn-hack"></div>
+                                                                    <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                                    <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tmp-light light-center"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Web Projects Tab -->
+                                        <div class="tab-pane fade" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab" tabindex="0">
+                                            <div class="row animation-action-1">
+                                                <div class="col-lg-6 col-md-6 paralax-image">
+                                                    <div class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger single-animation tmponhover tmp-fade-in animation-order-1">
+                                                        <div class="portfoli-card-img">
+                                                            <div class="img-box v2">
+                                                                <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="javascript:void(0);">
+                                                                    <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-2.jpg" alt="Portfolio Website">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-card-content-wrap">
+                                                            <div class="content-left">
+                                                                <h3 class="portfolio-card-title"><a href="javascript:void(0);">Portfolio Website</a></h3>
+                                                                <div class="tag-items">
+                                                                    <ul>
+                                                                        <li><a href="#" class="tag-item">HTML</a></li>
+                                                                        <li><a href="#" class="tag-item">CSS</a></li>
+                                                                        <li><a href="#" class="tag-item">JavaScript</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <a class="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon btn-md" href="javascript:void(0);">
+                                                                <div class="icon-reverse-wrapper">
+                                                                    <span class="btn-text" data-i18n="project_view_details">Detayları Gör</span>
+                                                                    <div class="btn-hack"></div>
+                                                                    <img src="assets/images/button/btg-bg.svg" alt="" class="btn-bg">
+                                                                    <img src="assets/images/button/btg-bg-2.svg" alt="" class="btn-bg-hover">
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="tmp-light light-center"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- tmp Latest Portfolio end -->
+
+                        <div class="slider-bg-light">
+                            <img class="blocksync-scroll-trigger fade_in animation-order-8" src="assets/images/banner/shape/light.svg" alt="Top Light Shape">
+                        </div>
+                        <div class="slider-bg-dot-shape">
+                            <div class="wrapper blocksync-scroll-trigger blocksync-stars-area fade_in animation-order-16">
+                                <div class="blocksync-stars"></div>
+                                <div class="blocksync-stars2"></div>
+                                <div class="blocksync-stars3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tmp banner area end -->
+    </section>
+
+    <!-- Start Footer Area  -->
+    <div class="footer-stars-animation-wrapper-footer-two">
+        <footer class="">
+            <div class="container">
+                <div class="footer-main footer-style-two">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-footer-wrapper border-right mr--20"></div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="quick-link-wrap">
+                                <h5 class="ft-title" data-i18n="footer_pages_title">Diğer Sayfalar</h5>
+                                <ul class="ft-link tmp-scroll-trigger animation-order-1 tmp-link-animation">
+                                    <li><a href="index.html" data-i18n="nav_home">Anasayfa</a></li>
+                                    <li><a href="about.html" data-i18n="nav_about">Hakkımda</a></li>
+                                    <li><a href="contact.html" data-i18n="nav_contact">İletişim</a></li>
+                                    <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
+                                    <li><a href="proje.html" data-i18n="nav_projects">Projeler</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-footer-wrapper contact-wrap">
+                                <h5 class="ft-title"> </h5>
+                                <ul class="ft-link tmp-scroll-trigger animation-order-1 tmp-link-animation">
+                                    <li><span class="ft-icon"><i class="fa-solid fa-location-dot"></i></span>Antalya</li>
+                                    <li><span class="ft-icon"><i class="fa-solid fa-envelope"></i></span><a href="mailto:karademirburak04@gmail.com">karademirburak04@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="newslatter tmp-scroll-trigger animation-order-1">
+                                <h3 class="title" data-i18n="footer_subscribe_title">Blog'a abone ol</h3>
+                                <p class="para" data-i18n="footer_subscribe_desc">Teknoloji haberleri ve hayat ipuçları - hep güncel</p>
+                                <form action="#" class="newsletter-form-1">
+                                    <input type="email" data-i18n-placeholder="footer_email_placeholder" placeholder="E-posta giriniz.">
+                                    <span>
+                                        <a href="#" class="form-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </span>
+                                </form>
+                            </div>
+                            <!-- Dil Değiştirme - Footer -->
+                            <div class="footer-language-switcher">
+                                <div class="language-switcher">
+                                    <a href="#" class="lang-btn" data-lang="tr">TR</a>
+                                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End Footer Area  -->
+
+    <script src="assets/js/vendor/modernizer.js"></script>
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/plugins/odometer.js"></script>
+    <script src="assets/js/vendor/appear.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/vendor/tilt.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/splittext.js"></script>
+    <script src="assets/js/plugins/scrolltigger.js"></script>
+    <script src="assets/js/plugins/scrolltoplugins.js"></script>
+    <script src="assets/js/plugins/smoothscroll.js"></script>
+    <script src="assets/js/vendor/twinmax.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/vendor/intro-video.js"></script>
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/animation.js"></script>
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/vendor/backtop.js"></script>
+    <script src="assets/js/plugins/text-type.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Çeviri Dosyaları -->
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+</body>
+</html>
